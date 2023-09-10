@@ -8,20 +8,74 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
+.btn {
+  background-color: #f8f9fa;
+  color: #232629;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+ }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+ .btn:hover {
+  background-color: #6db0f7;
+ }
+ 
+ .btn-primary {
+  background-color: #007bff;
+ }
+ 
+ .btn-primary:hover {
+  background-color: #0056b3;
+ }
+ 
+ .btn-secondary {
+  background-color: #6c757d;
+ }
+ 
+ .btn-secondary:hover {
+  background-color: #596975;
+ }
+ 
+ .btn-danger {
+  background-color: #dc3545;
+ }
+ 
+ .btn-danger:hover {
+  background-color: #c12e3b;
+ }
+ 
+ .btn-warning {
+  background-color: #e0a800;
+ }
+ 
+ .btn-warning:hover {
+  background-color: #d49a00;
+ }
+ 
+ .btn-info {
+  background-color: #007bff;
+ }
+ 
+ .btn-info:hover {
+  background-color: #0056b3;
+ }
+ 
+ .btn-light {
+  background-color: #f8f9fa;
+ }
+ 
+ .btn-light:hover {
+  background-color: #ebebeb;
+ }
+ 
+ .btn-dark {
+  background-color: #343a40;
+ }
+ 
+ .btn-dark:hover {
+  background-color: #232629;
+ }
